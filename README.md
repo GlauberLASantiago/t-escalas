@@ -2,6 +2,8 @@
 
 Recriação do aplicativo educativo T-Escalas, com os modos de jogo recuperados da versão Windows `T-EscalasDeploy4.zip`. A interface reaproveita o fundo, logotipo, botões, diagramas e músicas do original.
 
+**[Jogar no navegador](https://glauberlasantiago.github.io/t-escalas/)**
+
 ## Jogar
 
 - **Exercícios:** reconheça o tipo de escala, complete a meta antes do fim do tempo e desbloqueie fases. São quatro categorias: Maiores e Menores, 3 Menores, Modos Gregos e Especiais, com 28 fases no total.
