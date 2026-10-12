@@ -1,0 +1,550 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Maior ou Menor",
+      "difficulties": [
+        {
+          "name": "Elementar",
+          "seconds": 15.0,
+          "minimumHits": 1,
+          "maximumConsecutiveErrors": 5,
+          "wrongPauseSeconds": 1.0,
+          "showHints": true,
+          "showDegrees": true
+        },
+        {
+          "name": "Fácil",
+          "seconds": 60.0,
+          "minimumHits": 6,
+          "maximumConsecutiveErrors": 5,
+          "wrongPauseSeconds": 2.0,
+          "showHints": false,
+          "showDegrees": true
+        },
+        {
+          "name": "Médio",
+          "seconds": 60.0,
+          "minimumHits": 12,
+          "maximumConsecutiveErrors": 3,
+          "wrongPauseSeconds": 3.0,
+          "showHints": false,
+          "showDegrees": true
+        },
+        {
+          "name": "Difícil",
+          "seconds": 60.0,
+          "minimumHits": 25,
+          "maximumConsecutiveErrors": 2,
+          "wrongPauseSeconds": 3.0,
+          "showHints": false,
+          "showDegrees": false
+        }
+      ],
+      "scaleIDs": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 1,
+      "name": "3 Menores",
+      "difficulties": [
+        {
+          "name": "Elementar",
+          "seconds": 20.0,
+          "minimumHits": 1,
+          "maximumConsecutiveErrors": 5,
+          "wrongPauseSeconds": 1.0,
+          "showHints": true,
+          "showDegrees": true
+        },
+        {
+          "name": "Fácil",
+          "seconds": 90.0,
+          "minimumHits": 7,
+          "maximumConsecutiveErrors": 5,
+          "wrongPauseSeconds": 2.0,
+          "showHints": false,
+          "showDegrees": true
+        },
+        {
+          "name": "Médio",
+          "seconds": 90.0,
+          "minimumHits": 14,
+          "maximumConsecutiveErrors": 3,
+          "wrongPauseSeconds": 3.0,
+          "showHints": false,
+          "showDegrees": true
+        },
+        {
+          "name": "Difícil",
+          "seconds": 90.0,
+          "minimumHits": 28,
+          "maximumConsecutiveErrors": 2,
+          "wrongPauseSeconds": 3.0,
+          "showHints": false,
+          "showDegrees": false
+        }
+      ],
+      "scaleIDs": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Modos Gregos",
+      "difficulties": [
+        {
+          "name": "Elementar",
+          "seconds": 30.0,
+          "minimumHits": 1,
+          "maximumConsecutiveErrors": 5,
+          "wrongPauseSeconds": 1.0,
+          "showHints": true,
+          "showDegrees": true
+        },
+        {
+          "name": "Fácil",
+          "seconds": 120.0,
+          "minimumHits": 6,
+          "maximumConsecutiveErrors": 5,
+          "wrongPauseSeconds": 2.0,
+          "showHints": false,
+          "showDegrees": true
+        },
+        {
+          "name": "Médio",
+          "seconds": 120.0,
+          "minimumHits": 12,
+          "maximumConsecutiveErrors": 3,
+          "wrongPauseSeconds": 3.0,
+          "showHints": false,
+          "showDegrees": true
+        },
+        {
+          "name": "Difícil",
+          "seconds": 120.0,
+          "minimumHits": 25,
+          "maximumConsecutiveErrors": 2,
+          "wrongPauseSeconds": 3.0,
+          "showHints": false,
+          "showDegrees": false
+        }
+      ],
+      "scaleIDs": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Especiais",
+      "difficulties": [
+        {
+          "name": "Elementar",
+          "seconds": 30.0,
+          "minimumHits": 1,
+          "maximumConsecutiveErrors": 5,
+          "wrongPauseSeconds": 1.0,
+          "showHints": true,
+          "showDegrees": true
+        },
+        {
+          "name": "Fácil",
+          "seconds": 120.0,
+          "minimumHits": 6,
+          "maximumConsecutiveErrors": 5,
+          "wrongPauseSeconds": 2.0,
+          "showHints": false,
+          "showDegrees": true
+        },
+        {
+          "name": "Médio",
+          "seconds": 120.0,
+          "minimumHits": 12,
+          "maximumConsecutiveErrors": 3,
+          "wrongPauseSeconds": 3.0,
+          "showHints": false,
+          "showDegrees": true
+        },
+        {
+          "name": "Difícil",
+          "seconds": 120.0,
+          "minimumHits": 25,
+          "maximumConsecutiveErrors": 2,
+          "wrongPauseSeconds": 3.0,
+          "showHints": false,
+          "showDegrees": false
+        }
+      ],
+      "scaleIDs": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "variations": {
+    "2": {
+      "1": [
+        5,
+        8,
+        9
+      ],
+      "2": [
+        10,
+        6,
+        7,
+        11
+      ]
+    },
+    "3": {
+      "1": [
+        14,
+        15,
+        16,
+        12
+      ],
+      "2": [
+        17,
+        18,
+        19,
+        13
+      ]
+    }
+  },
+  "phases": [
+    {
+      "component": 506,
+      "offset": 32424,
+      "object": "2/ButtonMajorMinor",
+      "phase": 2,
+      "clef": 0,
+      "type": 2,
+      "variation": 0,
+      "root": 4,
+      "training": 0
+    },
+    {
+      "component": 507,
+      "offset": 32496,
+      "object": "3/ButtonMajorMinor",
+      "phase": 3,
+      "clef": 0,
+      "type": 0,
+      "variation": 0,
+      "root": 3,
+      "training": 0
+    },
+    {
+      "component": 508,
+      "offset": 32568,
+      "object": "4/ButtonMajorMinor",
+      "phase": 4,
+      "clef": 0,
+      "type": 0,
+      "variation": 0,
+      "root": -1,
+      "training": 0
+    },
+    {
+      "component": 509,
+      "offset": 32640,
+      "object": "5/ButtonMajorMinor",
+      "phase": 5,
+      "clef": 0,
+      "type": 0,
+      "variation": 0,
+      "root": 0,
+      "training": 1
+    },
+    {
+      "component": 510,
+      "offset": 32712,
+      "object": "6/ButtonMajorMinor",
+      "phase": 6,
+      "clef": 0,
+      "type": 0,
+      "variation": 0,
+      "root": -1,
+      "training": 1
+    },
+    {
+      "component": 517,
+      "offset": 32976,
+      "object": "1/ButtonMajorMinor",
+      "phase": 1,
+      "clef": 0,
+      "type": 1,
+      "variation": 0,
+      "root": 0,
+      "training": 0
+    },
+    {
+      "component": 520,
+      "offset": 33112,
+      "object": "1/ButtonSpecials",
+      "phase": 1,
+      "clef": 0,
+      "type": 1,
+      "variation": 1,
+      "root": 0,
+      "training": 0
+    },
+    {
+      "component": 527,
+      "offset": 33376,
+      "object": "6/ButtonSpecials",
+      "phase": 6,
+      "clef": 0,
+      "type": 0,
+      "variation": 1,
+      "root": 0,
+      "training": 1
+    },
+    {
+      "component": 528,
+      "offset": 33448,
+      "object": "5/ButtonSpecials",
+      "phase": 5,
+      "clef": 0,
+      "type": 0,
+      "variation": 0,
+      "root": -1,
+      "training": 0
+    },
+    {
+      "component": 529,
+      "offset": 33520,
+      "object": "4/ButtonSpecials",
+      "phase": 4,
+      "clef": 0,
+      "type": 2,
+      "variation": 2,
+      "root": -1,
+      "training": 0
+    },
+    {
+      "component": 530,
+      "offset": 33592,
+      "object": "3/ButtonSpecials",
+      "phase": 3,
+      "clef": 0,
+      "type": 1,
+      "variation": 2,
+      "root": 0,
+      "training": 0
+    },
+    {
+      "component": 531,
+      "offset": 33664,
+      "object": "2/ButtonSpecials",
+      "phase": 2,
+      "clef": 0,
+      "type": 2,
+      "variation": 1,
+      "root": -1,
+      "training": 0
+    },
+    {
+      "component": 532,
+      "offset": 33736,
+      "object": "7/ButtonSpecials",
+      "phase": 7,
+      "clef": 0,
+      "type": 0,
+      "variation": 2,
+      "root": 0,
+      "training": 1
+    },
+    {
+      "component": 535,
+      "offset": 33872,
+      "object": "8/ButtonSpecials",
+      "phase": 8,
+      "clef": 0,
+      "type": 0,
+      "variation": 0,
+      "root": -1,
+      "training": 1
+    },
+    {
+      "component": 537,
+      "offset": 33976,
+      "object": "1/ButtonGreek",
+      "phase": 1,
+      "clef": 0,
+      "type": 1,
+      "variation": 1,
+      "root": 0,
+      "training": 0
+    },
+    {
+      "component": 544,
+      "offset": 34240,
+      "object": "6/ButtonGreek",
+      "phase": 6,
+      "clef": 0,
+      "type": 0,
+      "variation": 1,
+      "root": 0,
+      "training": 1
+    },
+    {
+      "component": 545,
+      "offset": 34312,
+      "object": "5/ButtonGreek",
+      "phase": 5,
+      "clef": 0,
+      "type": 0,
+      "variation": 0,
+      "root": -1,
+      "training": 0
+    },
+    {
+      "component": 546,
+      "offset": 34384,
+      "object": "4/ButtonGreek",
+      "phase": 4,
+      "clef": 0,
+      "type": 2,
+      "variation": 2,
+      "root": -1,
+      "training": 0
+    },
+    {
+      "component": 547,
+      "offset": 34456,
+      "object": "3/ButtonGreek",
+      "phase": 3,
+      "clef": 0,
+      "type": 1,
+      "variation": 2,
+      "root": 0,
+      "training": 0
+    },
+    {
+      "component": 548,
+      "offset": 34528,
+      "object": "2/ButtonGreek",
+      "phase": 2,
+      "clef": 0,
+      "type": 2,
+      "variation": 1,
+      "root": -1,
+      "training": 0
+    },
+    {
+      "component": 549,
+      "offset": 34600,
+      "object": "7/ButtonGreek",
+      "phase": 7,
+      "clef": 0,
+      "type": 0,
+      "variation": 2,
+      "root": 0,
+      "training": 1
+    },
+    {
+      "component": 552,
+      "offset": 34736,
+      "object": "8/ButtonGreek",
+      "phase": 8,
+      "clef": 0,
+      "type": 0,
+      "variation": 0,
+      "root": -1,
+      "training": 1
+    },
+    {
+      "component": 555,
+      "offset": 34864,
+      "object": "1/ButtonMinors",
+      "phase": 1,
+      "clef": 0,
+      "type": 1,
+      "variation": 0,
+      "root": 0,
+      "training": 0
+    },
+    {
+      "component": 574,
+      "offset": 35720,
+      "object": "6/ButtonMinors",
+      "phase": 6,
+      "clef": 0,
+      "type": 0,
+      "variation": 0,
+      "root": -1,
+      "training": 1
+    },
+    {
+      "component": 575,
+      "offset": 35792,
+      "object": "5/ButtonMinors",
+      "phase": 5,
+      "clef": 0,
+      "type": 0,
+      "variation": 0,
+      "root": 0,
+      "training": 1
+    },
+    {
+      "component": 576,
+      "offset": 35864,
+      "object": "4/ButtonMinors",
+      "phase": 4,
+      "clef": 0,
+      "type": 0,
+      "variation": 0,
+      "root": -1,
+      "training": 0
+    },
+    {
+      "component": 577,
+      "offset": 35936,
+      "object": "3/ButtonMinors",
+      "phase": 3,
+      "clef": 0,
+      "type": 0,
+      "variation": 0,
+      "root": 3,
+      "training": 0
+    },
+    {
+      "component": 578,
+      "offset": 36008,
+      "object": "2/ButtonMinors",
+      "phase": 2,
+      "clef": 0,
+      "type": 2,
+      "variation": 0,
+      "root": 4,
+      "training": 0
+    }
+  ],
+  "rules": {
+    "successPauseSeconds": 0.5,
+    "noteIntervalSeconds": 0.3,
+    "winAtTimerExpiry": true,
+    "minimumHitImmediateWin": false,
+    "defeatAtMaximumConsecutiveErrors": true,
+    "resetStreakOnCorrect": true,
+    "wrongCountAfterFeedback": true,
+    "randomScaleUniform": true,
+    "randomRootUniformByListedVariants": true
+  }
+}

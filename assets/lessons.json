@@ -1,0 +1,619 @@
+{
+  "musicalscale": {
+    "title": "Escala musical",
+    "segments": [
+      {
+        "type": "text",
+        "text": "Chama-se escala a um conjunto de notas organizadas sucessivamente em uma relação de alturas. Assim as escalas podem ser dispostas ascendentemente (subindo) ou descendentemente (descendo), conforme o sentido que as notas estão direcionadas. Veja esses exemplos nas figuras:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura1-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Cada uma das notas da escala é designada por um grau indicado em algarismos romanos, marcados da nota mais grave até a nota mais aguda.\r\nGeralmente é indicada a repetição da primeira nota na oitava consecutiva ao movimento da escala. Assim, essa nota não representa um novo grau, é apenas a repetição do primeiro grau da escala (oitava acima ou abaixo). Veja os exemplos nas figuras e os comentários na sequência:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura2-white.png"
+      },
+      {
+        "type": "text",
+        "text": "A escala acima se compõe das notas Ré, Mi, Fá, Sol, Si, Dó, assim, possui seis graus. E está disposta ascendentemente. A nota final, Ré oitava acima, representa o primeiro grau novamente. Poderia até ser omitido da descrição da escala, todavia, é mais comum deixar a indicação dessa nota."
+      },
+      {
+        "type": "text",
+        "text": "Essa outra escala abaixo se compõe das notas Ré#, Mi, Sol, Lá, Lá#, Si e Dó#, resultando em sete graus. Está disposta ascendentemente:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura3-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Uma escala pode ter qualquer número de notas maior que um. Assim, é possível ter uma escala com apenas dois graus. Também é possível que um mesmo conjunto de notas forme escalas diferentes, bastando, para isso, alterar a ordem das notas. Veja a figura:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura4-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Nas escalas acima as notas são as mesmas, o que muda é a ordem. Em uma das escalas o I grau é o Dó e na outra o I grau é o Lá. Conseqüentemente todos os graus são diferentes entre as escalas."
+      }
+    ]
+  },
+  "arrangingscale": {
+    "title": "Montando uma escala",
+    "segments": [
+      {
+        "type": "text",
+        "text": "Quando se falou que uma escala é um conjunto de notas, na realidade, não se falou no que é mais importante. Uma escala é, na verdade, uma seqüência de intervalos predefinidos entre cada uma das notas de um conjunto."
+      },
+      {
+        "type": "text",
+        "text": "Por exemplo, na escala abaixo temos 3 graus. Entre o primeiro e o segundo grau temos dois tons e meio, entre o segundo e o terceiro grau temos um semitom e entre o terceiro grau e o primeiro (oitava acima) temos três tons."
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura5-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Para se identificar uma escala podemos indicar um nome, então para o exemplo acima chamaremos de “Escala nosso teste 1” de Ré. Fala-se de Ré porque o primeiro grau é esta nota."
+      },
+      {
+        "type": "text",
+        "text": "Então a “Escala nosso teste 1” é composta por três graus, dispostos da seguinte maneira: I < quarta justa (2,5 tons) > II < segunda menor (½ tom) > III < quarta aumentada (3 tons) > I."
+      },
+      {
+        "type": "text",
+        "text": "São estes intervalos entre os graus que realmente caracterizam a escala. Desta maneira, se seguirmos esta relação podemos ter essa escala utilizando outras notas (diferentes alturas)."
+      },
+      {
+        "type": "text",
+        "text": "Imagine que você quer ouvir a “Escala nosso teste 1” em Sol e não em Ré, como estava. Para fazer isto basta seguir a mesma lógica. Temos de ter os mesmos intervalos: I < quarta justa (2,5 tons) > II < segunda menor (½ tom) > III < quarta aumentada (3 tons) > I. Portanto:"
+      },
+      {
+        "type": "text",
+        "text": "Usando o Sol como I grau temos que ter uma quarta justa acima para chegarmos no II grau, e com isto chegamos à nota Dó. Se o Dó agora é o II grau, temos que achar o III, e para isto basta pensar no intervalo. Entre o II e III temos que ter uma segunda menor, o que resulta em um Réb. Depois disto basta constatar que do III para o I (oitava acima) realmente existe uma quarta aumentada. Assim, finalizamos a “Escala nosso teste 1” em Sol. Veja a figura:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura6-white.png"
+      }
+    ]
+  },
+  "majorminor": {
+    "title": "Maior / Menor Naturais",
+    "segments": [
+      {
+        "type": "heading",
+        "text": "Montando a Escala Maior Natural"
+      },
+      {
+        "type": "text",
+        "text": "Imagine que você tem a escala diatônica de Dó maior. O que a caracteriza são os intervalos entre os graus. Então para se ter uma escala diatônica maior basta que eu tenha a seguinte configuração: Tom – Tom – Semitom – Tom – Tom – Tom – Semitom"
+      },
+      {
+        "type": "text",
+        "text": "Compare isto com a escala abaixo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura13-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Agora imagine como obter outras escalas diatônicas maiores, ou seja, escalas diatônicas iniciando de outras notas."
+      },
+      {
+        "type": "text",
+        "text": "Vamos pegar a nota Sol para ser o I grau, o que resultará na escala diatônica de sol maior. Em primeiro lugar temos que pegar as sete notas musicais básicas e colocá-las em ordem. Veja a figura:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura14-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Depois acrescentamos a indicação dos graus em algarismos romanos:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura15-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Em seguida passamos a analisar se o intervalo entre as notas corresponde à definição de uma escala diatônica maior (Tom – Tom – Semitom – Tom – Tom – Tom – Semitom)."
+      },
+      {
+        "type": "text",
+        "text": "Nesta lógica iremos nos deparar com problemas apenas nos últimos graus. Veja as figuras:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura16-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Do VI para o VII grau deveria haver um tom, mas entre o Mi e o Fá só existe um semitom. E também, do VII para o I grau (oitava acima) deveria haver um semitom, mas entre o Fá e o Sol temos um tom."
+      },
+      {
+        "type": "text",
+        "text": "Isso significa que se apenas dispusermos as notas do jeito que estão não formaremos uma escala diatônica maior de Sol. Será uma outra escala de Sol, mas nunca uma escala diatônica maior."
+      },
+      {
+        "type": "text",
+        "text": "Para solucionar o problema temos que acrescentar um sustenido no Fá, assim tudo dará certo. Confira:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura17-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Montando a Escala Menor Natural"
+      },
+      {
+        "type": "text",
+        "text": "Para podermos realizar uma comparação com o processo anterior, montaremos a escala diatônica de Sol menor. Os intervalos que caracterizam a escala menor natural possuem a seguinte configuração: Tom – Semitom – Tom – Tom – Semitom – Tom – Tom"
+      },
+      {
+        "type": "text",
+        "text": "Da mesma forma, vamos pegar a nota Sol para ser o I grau, o que resultará posteriormente na escala diatônica de Sol menor. Em primeiro lugar temos que pegar as sete notas musicais básicas e colocá-las em ordem. Veja a figura:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura18-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Depois acrescentamos a indicação dos graus em algarismos romanos:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura19-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Em seguida passamos a analisar se o intervalo entre as notas corresponde à definição de uma escala diatônica menor (Tom – Semitom – Tom – Tom – Semitom – Tom – Tom)."
+      },
+      {
+        "type": "text",
+        "text": "Nesta lógica iremos nos deparar com os seguintes problemas. Veja a figura:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura20-white.png"
+      },
+      {
+        "type": "text",
+        "text": "- Do II para o III grau deveria haver um semitom, mas entre o Lá e o Si há um tom;\r\n- Do III para o IV grau deveria haver um tom, mas entre o Si e o Dó há um semitom;\r\n- Do V para o VI grau deveria haver um semitom, mas entre o Ré e o Mi há um tom;\r\n- Do VI para VII deveria haver um tom, mas entre o Mi e o Fá há um semitom."
+      },
+      {
+        "type": "text",
+        "text": "Isso significa que se apenas dispusermos as notas do jeito que estão não formaremos uma escala diatônica menor de Sol. Será uma outra escala de Sol, mas nunca uma escala diatônica menor."
+      },
+      {
+        "type": "text",
+        "text": "Como precisamos “diminuir” a distância entre os graus II e III, e “aumentar” a distância entre os graus III e IV, para solucionar o problema temos que acrescentar um bemol no Si (grau III). Procedemos da mesma forma para o problema entre os graus V, VI e VII, acrescentando um bemol no Mi, assim tudo dará certo. Confira:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura21-white.png"
+      }
+    ]
+  },
+  "3minors": {
+    "title": "3 Menores",
+    "segments": [
+      {
+        "type": "heading",
+        "text": "Montando a Escala Menor Natural"
+      },
+      {
+        "type": "text",
+        "text": "Os intervalos que caracterizam a escala menor natural possuem a seguinte configuração: Tom – Semitom – Tom – Tom – Semitom – Tom – Tom"
+      },
+      {
+        "type": "text",
+        "text": "Vamos pegar a nota Sol para ser o I grau, o que resultará posteriormente na escala diatônica de Sol menor."
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura22-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Em seguida passamos a analisar se o intervalo entre as notas corresponde à definição de uma escala diatônica menor (Tom – Semitom – Tom – Tom – Semitom – Tom – Tom). Nesta lógica iremos nos deparar com os seguintes problemas. Veja a figura:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura23-white.png"
+      },
+      {
+        "type": "text",
+        "text": "- Do II para o III grau deveria haver um semitom, mas entre o Lá e o Si há um tom;\r\n- Do III para o IV grau deveria haver um tom, mas entre o Si e o Dó há um semitom;\r\n- Do V para o VI grau deveria haver um semitom, mas entre o Ré e o Mi há um tom;\r\n- Do VI para VII deveria haver um tom, mas entre o Mi e o Fá há um semitom."
+      },
+      {
+        "type": "text",
+        "text": "Isso significa que se apenas dispusermos as notas do jeito que estão não formaremos uma escala diatônica menor de Sol. Será uma outra escala de Sol, mas nunca uma escala diatônica menor."
+      },
+      {
+        "type": "text",
+        "text": "Como precisamos “diminuir” a distância entre os graus II e III, e “aumentar” a distância entre os graus III e IV, para solucionar o problema temos que acrescentar um bemol no Si (grau III). Procedemos da mesma forma para o problema entre os graus V, VI e VII, acrescentando um bemol no Mi, assim tudo dará certo. Confira:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura24-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Montando a Escala Menor Harmônica"
+      },
+      {
+        "type": "text",
+        "text": "Os intervalos que caracterizam a escala menor harmônica possuem a seguinte configuração: Tom – Semitom – Tom – Tom – Semitom – Tom-e-meio – Semitom."
+      },
+      {
+        "type": "text",
+        "text": "Vamos pegar a nota Sol para ser o I grau, o que resultará posteriormente na escala diatônica de Sol menor harmônica."
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura25-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Em seguida passamos a analisar se o intervalo entre as notas corresponde à definição de uma escala diatônica menor harmônica (Tom – Semitom – Tom – Tom – Semitom – Tom-e-meio – Semitom). Nesta lógica iremos nos deparar com os seguintes problemas. Veja a figura:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura26-white.png"
+      },
+      {
+        "type": "text",
+        "text": "- Do II para o III grau deveria haver um semitom, mas entre o Lá e o Si há um tom;\r\n- Do III para o IV grau deveria haver um tom, mas entre o Si e o Dó há um semitom;\r\n- Do V para o VI grau deveria haver um semitom, mas entre o Ré e o Mi há um tom;\r\n- Do VI para VII deveria haver um tom e meio, mas entre o Mi e o Fá há um semitom;\r\n- Do VII para I (oitava acima) deveria haver um semitom, mas entre o Fá e o Sol há um tom;"
+      },
+      {
+        "type": "text",
+        "text": "Isso significa que se apenas dispusermos as notas do jeito que estão não formaremos uma escala diatônica menor harmônica de Sol. Para alterarmos os intervalos entre os graus necessários temos que acrescentar um bemol no Si, um bemol no Mi, e um sustenido no Fá, assim tudo dará certo. Confira:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura27-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Montando a Escala Menor Melódica"
+      },
+      {
+        "type": "text",
+        "text": "Os intervalos que caracterizam a escala menor melódica possuem a seguinte configuração: Tom – Semitom – Tom – Tom – Tom – Tom – Semitom."
+      },
+      {
+        "type": "text",
+        "text": "Vamos pegar a nota Sol para ser o I grau, o que resultará posteriormente na escala diatônica de Sol menor melódica."
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura28-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Em seguida passamos a analisar se o intervalo entre as notas corresponde à definição de uma escala diatônica menor melódica (Tom – Semitom – Tom – Tom – Tom – Tom – Semitom). Nesta lógica iremos nos deparar com os seguintes problemas. Veja a figura:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura29-white.png"
+      },
+      {
+        "type": "text",
+        "text": "- Do II para o III grau deveria haver um semitom, mas entre o Lá e o Si há um tom;\r\n- Do III para o IV grau deveria haver um tom, mas entre o Si e o Dó há um semitom;\r\n- Do VI para o VII grau deveria haver um tom, mas entre o Mi e o Fá há um semitom;\r\n- Do VII para I (oitava acima) deveria haver um semitom, mas entre o Fá e o Sol há um tom."
+      },
+      {
+        "type": "text",
+        "text": "Isso significa que se apenas dispusermos as notas do jeito que estão não formaremos uma escala diatônica menor melódica de Sol. Para alterarmos os intervalos entre os graus necessários temos que acrescentar um bemol no Si, e um sustenido no Fá, assim tudo dará certo. Confira:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura30-white.png"
+      }
+    ]
+  },
+  "minormelodic": {
+    "title": "Menor melódica (bachiana)",
+    "segments": [
+      {
+        "type": "text",
+        "text": "Originalmente, a escala menor melódica possui uma sequência de notas que sofrem alterações entre a forma ascendente e a forma descendente da escala. Quando ascendente, ela possui a seguinte configuração: Tom – Semitom – Tom – Tom – Tom – Tom – Semitom. Observe o exemplo em Dó:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura10-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Porém, quando a escala menor melódica se encontra na descendente, ela se transforma na escala menor natural. Observe a figura:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura11-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Quando a escala menor melódica é encarada com a mesma configuração tanto na ascendente quanto na descendente, ela recebe uma outra denominação: bachiana (ou menor melódica bachiana). Dessa forma, podemos ter as mesmas notas para os dois sentidos da escala, e é dessa forma que a utilizaremos no modo Praticar e nos Exercícios. Observe o exemplo em Dó:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura12-white.png"
+      }
+    ]
+  },
+  "greek": {
+    "title": "Modos Gregos",
+    "segments": [
+      {
+        "type": "text",
+        "text": "Podemos compreender os modos gregos como escalas que se originam a partir das escalas maior e menor naturais. Assim, a partir da escala diatônica maior podemos formar os modos: Jônio, Lídio e Mixolídio; e a partir da escala diatônica menor podemos formar os demais modos: Eólio, Dórico, Frígio e Lócrio."
+      },
+      {
+        "type": "text",
+        "text": "Os modos Jônio e Eólio possuem exatamente a mesma configuração da escala diatônica maior e menor, respectivamente. Dessa forma, partiremos dessas duas escalas para depois compreender as alterações que os demais modos apresentam. Os exemplos estão todos em Dó, para facilitar a comparação entre eles."
+      },
+      {
+        "type": "heading",
+        "text": "Jônio"
+      },
+      {
+        "type": "text",
+        "text": "Como já comentado, o modo Jônio é o correspondente da escala diatônica maior, possuindo a mesma configuração de intervalos: Tom – Tom – Semitom – Tom – Tom – Tom – Semitom. Veja o exemplo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura31-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Lídio"
+      },
+      {
+        "type": "text",
+        "text": "O modo Lídio pode ser compreendido a partir do modo Jônio. Ele possui quase a mesma configuração de intervalos, com uma única alteração no IV grau da escala em um semitom acima, ficando da seguinte forma: Tom – Tom – Tom – Semitom – Tom – Tom – Semitom. Veja o exemplo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura32-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Mixolídio"
+      },
+      {
+        "type": "text",
+        "text": "O modo Mixolídio também pode ser compreendido a partir do modo Jônio. Ele possui quase a mesma configuração de intervalos, com uma única alteração no VII grau da escala em um semitom abaixo, ficando da seguinte forma: Tom – Tom – Semitom – Tom – Tom – Semitom – Tom. Veja o exemplo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura33-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Eólio"
+      },
+      {
+        "type": "text",
+        "text": "Como também já comentado, o modo Eólio é o correspondente da escala diatônica menor, possuindo a mesma configuração de intervalos: Tom – Semitom – Tom – Tom – Semitom – Tom – Tom. Veja o exemplo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura34-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Dórico"
+      },
+      {
+        "type": "text",
+        "text": "O modo Dórico pode ser compreendido a partir do modo Eólio. Ele possui quase a mesma configuração de intervalos, com uma única alteração no VI grau da escala em um semitom acima, ficando da seguinte forma: Tom – Semitom – Tom – Tom – Tom – Semitom – Tom. Veja o exemplo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura35-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Frígio"
+      },
+      {
+        "type": "text",
+        "text": "O modo Frígio também pode ser compreendido a partir do modo Eólio. Ele possui quase a mesma configuração de intervalos, com uma única alteração no II grau da escala em um semitom abaixo, ficando da seguinte forma: Semitom – Tom – Tom – Tom – Semitom – Tom – Tom. Veja o exemplo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura36-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Lócrio"
+      },
+      {
+        "type": "text",
+        "text": "O modo Lócrio também pode ser compreendido a partir do modo Eólio. Porém, ele sofre duas alterações na configuração de intervalos, com alterações no II e V graus da escala em um semitom abaixo em ambos, ficando da seguinte forma: Semitom – Tom – Tom – Semitom – Tom – Tom – Tom. Veja o exemplo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura37-white.png"
+      }
+    ]
+  },
+  "specials": {
+    "title": "Especiais",
+    "segments": [
+      {
+        "type": "text",
+        "text": "As escalas que aqui chamamos de Especiais, referem-se a uma série de escalas que não obedecem o mesmo padrão de notas das escalas diatônicas maiores e menores e dos modos gregos. Nesses outros grupos, as notas da escala obedecem sempre uma sequência na qual nenhuma nota se repete ou é omitida da escala. Começando em Dó, a escala passará por Ré, Mi, Fá, Sol, Lá, Si e repetirá o Dó novamente, independentemente dos acidentes que as notas possam ter no trajeto, a sequência é sempre completa."
+      },
+      {
+        "type": "text",
+        "text": "Porém, no grupo das Especiais foram propositalmente colocadas algumas escalas diferentes, que possuem notas que se repetem, ou ainda, que se omitem da sequência natural de notas, formando escalas que possuem sonoridades distintas e peculiares. Abaixo você verá as seqüências de intervalos que compõem cada uma das escalas desse grupo. Todos os exemplos estão em Dó."
+      },
+      {
+        "type": "heading",
+        "text": "Escala de Tons Inteiros"
+      },
+      {
+        "type": "text",
+        "text": "Como o próprio nome sugere, a escala de tons inteiros é formada apenas por intervalos de tom entre as notas. Logo, o que a caracteriza é a seguinte configuração: Tom – Tom – Tom – Tom – Tom – Tom. Veja o exemplo na figura abaixo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura38-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Escala Cromática"
+      },
+      {
+        "type": "text",
+        "text": "A escala cromática é composta apenas por intervalos de semitom entre as notas. Logo, o que a caracteriza é uma configuração de 12 semitons em sequência. Veja o exemplo na figura abaixo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura39-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Escala Pentatônica Maior"
+      },
+      {
+        "type": "text",
+        "text": "A escala pentatônica maior possui 5 graus que são formados pela seguinte configuração de intervalos: Tom – Tom – Tom-e-meio – Tom – Tom-e-meio. Veja o exemplo na figura abaixo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura40-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Escala Pentatônica Menor"
+      },
+      {
+        "type": "text",
+        "text": "A escala pentatônica menor também possui 5 graus, e são formados pela seguinte configuração de intervalos: Tom-e-meio – Tom – Tom – Tom-e-meio – Tom. Veja o exemplo na figura abaixo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura41-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Escala Blues"
+      },
+      {
+        "type": "text",
+        "text": "Pode-se pensar a escala blues como sendo formada a partir da escala pentatônica menor. Ela possui a adição de somente uma nota, o que gera a seguinte configuração de intervalos: Tom-e-meio – Tom – Semitom – Semitom – Tom-e-meio – Tom. Veja o exemplo na figura abaixo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura42-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Escala Diminuta"
+      },
+      {
+        "type": "text",
+        "text": "A escala diminuta inicia-se com um intervalo de tom e é toda formada por intervalos de tom e semitom alternadamente e sucessivamente, o que resulta de uma escala de 8 graus. Veja o exemplo na figura abaixo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura43-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Escala Dominante Diminuta"
+      },
+      {
+        "type": "text",
+        "text": "A escala dominante diminuta inicia-se com um intervalo de semitom e é toda formada por intervalos de semitom e tom alternadamente e sucessivamente, o que também resulta de uma escala de 8 graus. Veja o exemplo na figura abaixo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura44-white.png"
+      },
+      {
+        "type": "heading",
+        "text": "Escala Aumentada"
+      },
+      {
+        "type": "text",
+        "text": "A escala aumentada também é formada por intervalos que se alternam, possuindo a seguinte configuração: Tom-e-meio – Semitom – Tom-e-meio – Semitom – Tom-e-meio – Semitom. Veja o exemplo na figura abaixo:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura45-white.png"
+      }
+    ]
+  },
+  "examples": {
+    "title": "Exemplos de escalas",
+    "segments": [
+      {
+        "type": "text",
+        "text": "Abaixo você verá uma grande quantidade de escalas, que servem como exemplos. Todas elas possuem como primeiro grau a nota dó, para facilitar a comparação. A maioria delas possui sete graus, mas algumas outras possuem uma quantidade diferente de graus."
+      },
+      {
+        "type": "text",
+        "text": "Entre os graus você pode observar os intervalos que existem, utilizando para isso as seguintes indicações que foram acrescentadas para facilitar a visualização:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura_woops-white.png"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura7-white.png"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura8-white.png"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura9-white.png"
+      }
+    ]
+  },
+  "claveArmature": {
+    "title": "Armadura de Clave",
+    "segments": [
+      {
+        "type": "text",
+        "text": "Como você já deve ter observado, são diversas as situações em que alterações nas notas se fazem necessárias, tanto com sustenidos quanto com bemóis, de modo que as notas fiquem com os intervalos corretos entre si para formar determinadas escalas."
+      },
+      {
+        "type": "text",
+        "text": "Porém, ao invés de colocar os acidentes sempre junto às notas da escala, uma outra possibilidade de escrita é posicioná-los no início do pentagrama, logo após a clave. A isso se chama de armadura de clave. Veja os exemplos:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura47-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Quando os acidentes estão dispostos na armadura de clave, eles afetam todas as oitavas da nota a que se referem. Por exemplo, na imagem acima observe a primeira armadura à esquerda e note que ela possui dois sustenidos. Esses sustenidos estão posicionados em Fá e em Dó. Isso significa que todas e quaisquer notas Fá e notas Dó, independentemente da oitava em que aparecerem na partitura, receberão o sustenido, se tornando Fá# e Dó#. Veja a escala a seguir:"
+      },
+      {
+        "type": "image",
+        "src": "./assets/images/figura46-white.png"
+      },
+      {
+        "type": "text",
+        "text": "Por conta da armadura de clave, podemos verificar que a nota do III grau já é um Fá#, o mesmo ocorrendo para a nota do VII grau, Dó#. Isso faz com que os intervalos formados obedeçam a configuração de uma escala maior (Tom – Tom – Semitom – Tom – Tom – Tom – Semitom), o que faz com que a escala acima seja de Ré maior, ou ainda, Ré jônio (modo grego correspondente à escala maior)."
+      }
+    ]
+  }
+}
